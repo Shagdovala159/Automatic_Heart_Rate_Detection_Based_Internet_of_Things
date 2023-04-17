@@ -1,13 +1,13 @@
 #include <ESP8266WiFi.h>
 #include "ThingSpeak.h" // always include thingspeak header file after other header files and custom macros
 
-char ssid[] = "!";   // your network SSID (name) 
-char pass[] = "anelita123";   // your network password
+char ssid[] = "";   // your network SSID (name) 
+char pass[] = "";   // your network password
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 WiFiClient  client;
 
-unsigned long myChannelNumber = 2092697;
-const char * myWriteAPIKey = "M2A3LS02Y5PHPTK0";
+unsigned long myChannelNumber = ;
+const char * myWriteAPIKey = "";
 
 long int beatCount = 0; 
 int lastbeat; 
